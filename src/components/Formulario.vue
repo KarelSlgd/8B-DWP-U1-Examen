@@ -13,7 +13,7 @@
                 v-model="form.marca"
                 type="text"
                 required
-                pattern="[A-Za-z0-9]+"
+                pattern="^[a-zA-Z0-9_]*$"
               ></b-form-input> </b-form-group
           ></b-col>
           <b-col>

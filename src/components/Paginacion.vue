@@ -32,7 +32,7 @@ export default {
   data() {
     return {
       perPage: 3,
-      currentPage: 0,
+      currentPage: 1,
       vehiculos: [],
       filtro: null,
       sortBy: "",
